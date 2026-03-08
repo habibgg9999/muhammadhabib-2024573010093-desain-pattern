@@ -32,18 +32,24 @@ Berikut adalah ringkasan kode dan logika yang telah diimplementasikan sesuai den
 ### 3.1 Variabel dan Tipe Data
 Saya telah membuat class `Variable` untuk memahami penggunaan tipe data dasar seperti `int`, `double`, `boolean`, `char`, dan `String`.
 * **Latihan Mandiri:** Membuat program data diri lengkap (Nama, TTL, Golongan Darah, dll) di dalam *package* `latihan` menggunakan tipe data yang presisi.
+![Screenshot (421).png](Screenshot%20%28421%29.png)
 
 ### 3.2 Operator dan Ekspresi
 Dalam class `Operator`, diimplementasikan penggunaan operator aritmatika, perbandingan, dan logika.
 * **Latihan Mandiri:** Membuat program penghitung luas persegi panjang dengan rumus `panjang * lebar`.
+![Screenshot (424).png](Screenshot%20%28424%29.png)
 
 ### 3.3 Percabangan (Control Flow)
 Menggunakan struktur `if-else` dan `switch-case` untuk pengambilan keputusan dalam program.
 * **Latihan Mandiri:** Membuat logika untuk menentukan bilangan genap atau ganjil menggunakan operator modulus (`%`).
+![Screenshot (426).png](Screenshot%20%28426%29.png)
+
 
 ### 3.4 Perulangan (Looping)
 Menerapkan tiga jenis perulangan: `for`, `while`, dan `do-while`.
 * **Latihan Mandiri:** Mencetak bilangan ganjil dari rentang 1 hingga 20 menggunakan ketiga metode perulangan tersebut untuk membandingkan perbedaannya.
+![Screenshot (427).png](Screenshot%20%28427%29.png)
+
 
 ### 3.5 Practice Problems (Masalah Praktik)
 Saya telah menyelesaikan tiga masalah logika tingkat lanjut di folder `modul_1`:
