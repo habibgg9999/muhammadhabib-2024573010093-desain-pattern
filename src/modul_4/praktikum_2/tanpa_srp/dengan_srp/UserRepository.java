@@ -1,0 +1,23 @@
+package modul_4.praktikum_2.dengan_srp;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class UserRepository {
+    // Path disesuaikan dengan struktur folder di screenshot kamu
+    private static final String FOLDER_PATH = "src\\modul_4\\praktikum_2\\dengan_srp\\";
+    private static final String DATABASE_FILE = "user.txt";
+
+    public void save(User user) {
+        File file = new File(FOLDER_PATH + DATABASE_FILE);
+
+        // 'true' agar data baru ditambahkan di bawah data lama (append)
+        try (FileWriter writer = new FileWriter(file, true)) {
+            writer.write(user.getName() + " - " + user.getEmail() + "\n");
+            System.out.println("Pengguna berhasil disimpan: " + user.getName());
+        } catch (IOException e) {
+            System.out.println("Gagal menyimpan pengguna: " + e.getMessage());
+        }
+    }
+}
